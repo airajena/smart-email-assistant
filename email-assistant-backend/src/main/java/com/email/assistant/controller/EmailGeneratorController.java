@@ -1,6 +1,7 @@
 package com.email.assistant.controller;
 
 import com.email.assistant.dto.EmailRequest;
+import com.email.assistant.service.EmailGeneratorService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
